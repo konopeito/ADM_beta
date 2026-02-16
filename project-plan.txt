@@ -1,0 +1,32 @@
+# Development Roadmap
+
+## Phase 1 – Pre-Production
+- Finalize GDD
+- Define narrative layers
+- Plan UI architecture
+
+## Phase 2 – Prototype
+- Build CRT interface mockup
+- Implement terminal input system
+- Basic glitch shader system
+
+## Phase 3 – Narrative Layer Implementation
+- Implement Layer One (Terminal Logs)
+- Add Sub Layer Delta
+- Integrate hidden command system
+
+## Phase 4 – Systems Integration
+- Memory decay mechanics
+- Repair mechanic
+- Audio trace system
+
+## Phase 5 – Polish
+- Visual glitch effects
+- Audio ambiance
+- UI transitions
+- Stability testing
+
+## Phase 6 – Build & Submission
+- Final playable build
+- Documentation refinement
+- Portfolio screenshots
