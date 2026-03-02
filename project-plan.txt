@@ -9,10 +9,67 @@ https://trello.com/b/gUTk1aII/adm
 - Define narrative layers
 - Plan UI architecture
 
+Assets/
+├── Scenes/
+│   └── Terminal_Main.unity          (main scene - built in Unity Editor)
+├── Scripts/
+│   ├── TerminalController.cs        (core terminal system)
+│   ├── CommandParser.cs             (modular command handling)
+│   ├── NarrativeStateManager.cs     (tracks story progression)
+│   ├── MemoryDatabase.cs            (log/fragment storage)
+│   ├── GlitchSystem.cs             (text corruption + visual glitch)
+│   └── CRTFlicker.cs               (screen flicker effect)
+├── ScriptableObjects/
+│   ├── MemoryFragment.cs            (SO definition)
+│   └── Fragments/
+│       ├── log_01.asset
+│       ├── log_02.asset
+│       └── log_03.asset
+├── Fonts/                           (monospace font - IBM Plex Mono etc.)
+├── Textures/
+│   └── scanlines.png               (CRT overlay)
+└── Audio/                           (ambient hum, static - later)
+Docs/
+├── GDD_ADM.md                       (Game Design Document)
+README.md                            (updated with MVP Development section)
+project-plan.txt                     (existing)
+
 ## Phase 2 – Prototype
 - Build CRT interface mockup
 - Implement terminal input system
 - Basic glitch shader system
+
+Canvas
+├── BlackOverlay         (full black screen for fades)
+├── LogoGroup            (centered logo container)
+│   ├── LogoIcon         (Image — the Ellion Systems logo)
+│   ├── CompanyName      (TextMeshProUGUI — "ELLION SYSTEMS LABORATORIES")
+│   └── DivisionName     (TextMeshProUGUI — "Cognitive Architecture Division")
+├── BootText             (TextMeshProUGUI — scrolling BIOS text)
+├── ScanlineOverlay      (same as your terminal scene)
+└── CRTBorder            (optional — rounded CRT edge frame)
+
+[BLACK SCREEN]
+        ↓ (1 second silence)
+[CRT POWER-ON FLICKER + STATIC BURST SOUND]
+        ↓
+[ELLION SYSTEMS LOGO — fades in with hum]
+    "ELLION SYSTEMS LABORATORIES"
+    "Cognitive Architecture Division"
+        ↓ (holds for 3 seconds)
+[LOGO GLITCHES — screen tears]
+        ↓
+[BIOS-STYLE BOOT TEXT — scrolls line by line]
+    ELLION-OS v0.09.1
+    MEMORY CHECK... 4096KB OK
+    ANALOG SIGNAL BRIDGE... CONNECTED
+    TAPE DRIVE α... SPINNING
+    TAPE DRIVE β... ERROR — RETRY — OK
+    NEURAL IMPRINT ARRAY... UNSTABLE
+    LOADING EIDOLON-9...
+    █████████████████████████ 100%
+        ↓
+[TERMINAL READY — existing TerminalController takes over]
 
 ## Phase 3 – Narrative Layer Implementation
 - Implement Layer One (Terminal Logs)
