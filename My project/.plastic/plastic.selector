@@ -1,0 +1,4 @@
+repository "ADM_beta/ADM_beta@2475341984056@cloud"
+  path "/"
+    br "/main"
+    co "/main"
