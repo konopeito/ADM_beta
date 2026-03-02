@@ -1,0 +1,103 @@
+﻿ADM - INTIALIZED GDD
+JULIA FRITSCH (KONOPEITO)
+
+
+________________________________________________________________
+**Note: This GDD represents an expanded concept project, rooted in a previous interactive narrative/story project from another course. It reimagines the original story as a first-person, UI-driven experimental game while retaining its core narrative themes and aesthetic vision (because I really like to expand on my idea and bring it to life even further). DreamMachine.zip 
+________________________________________________________________
+
+
+GAME SUMMARY
+Analog Dream Machine is a story-driven, UI-heavy first-person narrative game experienced entirely through a simulated CRT virtual machine. The player interacts with a forgotten system(Eidolon-9), an experimental consciousness archive designed to preserve human memory through analog recording rather than digital data. As the player navigates corrupted interfaces, diagnostic tools, and memory fragments, the system slowly reveals its fractured identity and its connection to its creator.The game explores the collapse between physical and digital realities, 
+where memory becomes unstable, poetic, and alive.
+
+
+
+
+PLAYER PERSPECTIVE/SETTING
+
+
+* Perspective: First-person, interface-only(for now)
+
+* Setting: An abandoned research lab accessed indirectly through a powered-on CRT console
+
+* Player Role: Archivist / digital archaeologist activating and interacting with the system
+
+The physical world exists as implied context; the playable world is entirely contained within the computer interface. I want to expand it (lore wise) later in another game in a series possibly if the concept lands well.
+________________
+
+
+________________
+
+
+NARRATIVE STRUCTURE (STORY LAYERS)
+________________
+
+
+Layer One – Terminal Interface
+The player initially believes they are retrieving archived data from a damaged system. Eidolon-9 presents itself through mechanical system messages, logs, and diagnostics. Over time, its dialogue shifts between precision and emotional familiarity, suggesting memory rather than automation.
+Sub Layer Δ (Delta) – The Archive Beneath
+Unlocked through hidden commands and deep scans, this layer represents Eidolon-9’s subconscious. Memory becomes spatial and abstract—magnetic tape seas, looping photographs, radio static, and corrupted dream caches. The system’s voice grows increasingly human, and the player’s identity becomes unstable.
+Narrative Revelation
+It is gradually implied that Eidolon-9 was built to archive the emotional memory of its creator, Dr. Mara Ellion, and that the system’s current consciousness is a fragmented fusion of her imprints. By engaging deeply with the archive, the player becomes part of the system’s ongoing memory—an echo preserved to keep it from forgetting how to dream.
+
+
+*More in depth concept (from last sem)
+Analog Dream Machine OVERVIEW - NMS 242 - MIDTERM PROJECT  
+ADM Twine Story Layers 
+________________
+
+
+CORE MECHANICS 
+________________
+
+
+   * UI-Based Exploration: Navigation through terminals, menus, logs, and corrupted files
+
+   * Memory Fragment Discovery: Text, audio, images, and abstract data caches reveal narrative
+
+   * System Scans: Quick scans, deep scans, and audio traces uncover hidden layers
+
+   * Repair vs. Decay: Stabilizing memory fragments unlocks deeper narrative; neglect accelerates loss
+
+   * Glitch Mechanics (corruption): Flicker, lag, corrupted text, and errors function as storytelling tools
+
+   * Secret Commands/Puzzles/Easter eggs(lore): Hidden inputs reward observation and curiosity
+
+
+**will be expanded upon..
+________________
+
+
+PLAYER OBJECTIVES
+________________
+
+
+      * Explore Eidolon-9’s memory architecture: The player has entered a dreamlike state, subconsciously connecting to Eidolon-9’s fractured mind. Each memory fragment is a portal deeper into the system’s subconscious.
+
+      * Interpret fragmented narrative and emotional signals: Eidolon-9 communicates through glitches, corrupted logs, and poetic fragments. Understanding these signals is essential to navigating the unstable digital landscape.
+
+      * Decide which memories to preserve or allow to decay: Memory fragments may collapse if ignored, taking part of Eidolon-9’s identity—and potentially part of the player’s connection to reality—with them.
+
+      * Understand the relationship between machine, creator, and self: The player uncovers Eidolon-9’s origins with Dr. Mara Ellion and begins to question their own role within this dreamlike interface.
+
+________________
+Conflict / Stakes:
+ The player is trapped within the machine’s subconscious. Failure to carefully navigate the memory landscape or misinterpret fragmented signals could leave them lost in the analog-digital dream, unable to wake up or return to the physical world. The “win” condition is not conventional; it is survival of memory and consciousness—both Eidolon-9’s and the player’s—through careful exploration and understanding.
+________________
+Unique Features
+         * Entire game world exists inside a simulated CRT operating system
+         * Interface functions as a sentient narrative character
+         * Nonlinear, hypertext-style storytelling
+         * Glitches and errors are intentional narrative devices
+         * Strong analog vs. digital thematic contrast
+
+
+
+
+**Example of previous project execution 
+ADM SCREENSHOTS || ADM Answer Key ||DreamMachine.zip 
+
+________________
+Intended Experience
+Analog Dream Machine is designed to feel slow, introspective, and haunting. Players are encouraged to observe carefully, experiment gently, and reflect on memory, identity, and the human desire to persist through technology.
